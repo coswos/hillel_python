@@ -1,2 +1,0 @@
-# hillel_python
-homeworks
