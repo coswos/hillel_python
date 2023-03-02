@@ -8,10 +8,9 @@ def hashtag(message, tag='#'):
     if message == '\"' or text == '\"' or message == "\'" or text == "\'": raise Exception('Error Bro ;)')
 
     print(
-        'text', text,
-        sep='  '
+        'get your hashtag', text,
     )
 
 
 example_text = 'hello my friend '
-hashtag('"')
+hashtag(example_text)
