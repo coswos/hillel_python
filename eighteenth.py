@@ -2,9 +2,10 @@ number_collaps = 0
 def sum_digits(num):
     # Складываем все цифры числа
     total = sum(int(digit) for digit in str(num))
-    if num <= 0:
+    if num > 0:
+            pass
+    else:
         raise Exception('digit less than zero')
-
     # Если получившееся число меньше 10, возвращаем его
     if total < 10:
         return total
